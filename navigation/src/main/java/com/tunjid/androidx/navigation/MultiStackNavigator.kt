@@ -101,7 +101,7 @@ class MultiStackNavigator(
                 StackFragment::isAttached,
                 StackFragment::isResumed
             ))
-            .last() // false come before true when comparing
+            .last() // false comes before true when comparing
 
     val activeIndex: Int
         get() = activeFragment.index
